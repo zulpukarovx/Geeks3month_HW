@@ -2,7 +2,7 @@ const gmailInput = document.getElementById('gmail_input')
 const verifierBtn = document.getElementById('gmail_button')
 const gmailResult = document.getElementById('gmail_result')
 
-const regExp = /^\w{6,30}@gmail.com$/
+const regExp = /\w{6,30}@gmail.com/
 
 verifierBtn.addEventListener('click', function () {
     let html = ''
