@@ -27,20 +27,55 @@ let positionY = 0
 const movingBall = () => {
     let ball = document.querySelector('.child_block')
 
-    if(positionX < 450 && positionY === 0){
+    if (positionX < 449 && positionY === 0) {
         positionX++
-    }else if(positionX === 450 && positionY < 450){
+    } else if (positionX === 449 && positionY < 449) {
         positionY++
-    }else if (positionX > 0 && positionY ===450){
+    } else if (positionX > 0 && positionY === 449) {
         positionX--
-    }else if(positionX === 0 && positionY > 0){
+    } else if (positionX === 0 && positionY > 0) {
         positionY--
     }
 
     ball.style.left = `${positionX}px`
     ball.style.top = `${positionY}px`
 
-    setTimeout(movingBall, 5)
+    requestAnimationFrame(movingBall)
 }
 
 movingBall()
+
+//timer HomeWork Part2
+
+const startBtn = document.getElementById("start")
+const stopBtn = document.getElementById("stop")
+const resetBtn = document.getElementById("reset")
+const timerScreen = document.getElementById("seconds")
+
+let seconds = 0
+let timer
+
+function startTimer() {
+    if (!timer) {
+        timer = setInterval(() => {
+            seconds++
+            timerScreen.textContent = seconds
+        }, 1000)
+    }
+}
+
+function stopTimer() {
+    clearInterval(timer)
+    timer = null
+}
+
+function resetTimer() {
+    clearInterval(timer)
+    seconds = 0
+    timerScreen.textContent = seconds
+    timer = null
+}
+
+startBtn.addEventListener("click", startTimer)
+stopBtn.addEventListener("click", stopTimer)
+resetBtn.addEventListener("click", resetTimer)
