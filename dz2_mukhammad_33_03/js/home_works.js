@@ -40,7 +40,41 @@ const movingBall = () => {
     ball.style.left = `${positionX}px`
     ball.style.top = `${positionY}px`
 
-    setTimeout(movingBall, 5)
+    requestAnimationFrame(movingBall)
+}
+movingBall()
+
+//timer HomeWork Part2
+
+const startBtn = document.getElementById("start")
+const stopBtn = document.getElementById("stop")
+const resetBtn = document.getElementById("reset")
+const timerScreen = document.getElementById("seconds")
+
+let seconds = 0
+let timer
+
+function startTimer() {
+    if (!timer) {
+        timer = setInterval(() => {
+            seconds++
+            timerScreen.textContent = seconds
+        }, 1000)
+    }
 }
 
-movingBall()
+function stopTimer() {
+    clearInterval(timer)
+    timer = null
+}
+
+function resetTimer() {
+    clearInterval(timer)
+    seconds = 0
+    timerScreen.textContent = seconds
+    timer = null
+}
+
+startBtn.addEventListener("click", startTimer)
+stopBtn.addEventListener("click", stopTimer)
+resetBtn.addEventListener("click", resetTimer)
