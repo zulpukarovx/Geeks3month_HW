@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Groot",
+    "age": 2,
+    "person_photo": "https://i.pinimg.com/736x/c0/77/c9/c077c90945708d84588820afa2812e56.jpg"
+  },
+  {
+    "name": "Thor",
+    "age": 1500,
+    "person_photo": "https://www.pinkvilla.com/pics/480x270/avengers-endgame-star-chris-hemsworth-on-fat-thor-i-know-how-my-wife-feels-now-when-she-was-pregnant_202209.jpg"
+  },
+  {
+    "name": "Iron Man",
+    "age": 42,
+    "person_photo": "https://i.pinimg.com/736x/a3/ad/a5/a3ada5be68f9928212465b91f9b960b2.jpg"
+  },
+  {
+    "name": "Doctor Strange",
+    "age": 39,
+    "person_photo": "https://cdn.vox-cdn.com/thumbor/U7R0ZqvStA3tR_2nBkFj_L7-gnw=/0x0:607x341/1600x900/cdn.vox-cdn.com/uploads/chorus_image/image/52586749/Screen_Shot_2017_01_04_at_8.57.05_AM.0.png"
+  },
+  {
+    "name": "Thanos",
+    "age": 500,
+    "person_photo": "https://i.pinimg.com/564x/f3/58/13/f3581322050ce53dad0f664e85a30099.jpg"
+  },
+  {
+    "name": "Captain America",
+    "age": 93,
+    "person_photo": "https://i.pinimg.com/originals/38/10/49/381049eb280c38f384b5fd165a24efb5.jpg"
+  },
+  {
+    "name": "Batman",
+    "age": 45,
+    "person_photo": "https://i.pinimg.com/originals/b6/46/59/b64659850157a4ea1bbc3a4e81392856.jpg"
+  },
+  {
+    "name": "Aquaman",
+    "age": 81,
+    "person_photo": "https://i.redd.it/pc49loi2jja91.jpg"
+  }
+]

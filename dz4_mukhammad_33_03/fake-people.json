@@ -1,0 +1,57 @@
+[
+  {
+    "name": "John",
+    "age": 30,
+    "city": "New York",
+    "occupation": "developer",
+    "hobbies": ["programming", "reading", "traveling"],
+    "contacts": {
+      "email": "john@example.com",
+      "phone": "+1 (123) 456-7890"
+    }
+  },
+  {
+    "name": "Alice",
+    "age": 28,
+    "city": "London",
+    "occupation": "designer",
+    "hobbies": ["drawing", "photography", "cooking"],
+    "contacts": {
+      "email": "alice@example.com",
+      "phone": "+44 20 1234 5678"
+    }
+  },
+  {
+    "name": "Bob",
+    "age": 35,
+    "city": "San Francisco",
+    "occupation": "engineer",
+    "hobbies": ["gardening", "cycling", "playing music"],
+    "contacts": {
+      "email": "bob@example.com",
+      "phone": "+1 (415) 555-1234"
+    }
+  },
+  {
+    "name": "Emily",
+    "age": 26,
+    "city": "Sydney",
+    "occupation": "marketing",
+    "hobbies": ["travelling", "painting", "yoga"],
+    "contacts": {
+      "email": "emily@example.com",
+      "phone": "+61 2 9876 5432"
+    }
+  },
+  {
+    "name": "Carlos",
+    "age": 32,
+    "city": "Barcelona",
+    "occupation": "chef",
+    "hobbies": ["cooking", "surfing", "learning languages"],
+    "contacts": {
+      "email": "carlos@example.com",
+      "phone": "+34 93 123 45 67"
+    }
+  }
+]
